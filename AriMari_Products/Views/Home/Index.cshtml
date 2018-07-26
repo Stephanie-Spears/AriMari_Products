@@ -1,31 +1,529 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "AriMari Products - Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<!-- ***** Wellcome Area Start ***** -->
+<section class="wellcome_area clearfix" id="home">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <div class="col-12 col-md">
+                <div class="wellcome-heading">
+                    <h2>AriMari Products</h2>
+                    <h3>C</h3>
+                    <p>Some sort of caption. Blah blah boop.</p>
+                </div>
+                <div class="get-start-area">
+                    <!-- Form Start -->
+                    <form action="#" method="post" class="form-inline">
+                        <input type="email" class="form-control email" placeholder="name@company.com">
+                        <input type="submit" class="submit" value="Get Started">
+                    </form>
+                    <!-- Form End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Welcome thumb -->
+    <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+        <img src="/Content/img/bg-img/welcome-img.png" alt="">
+    </div>
+</section>
+<!-- ***** Wellcome Area End ***** -->
+<!-- ***** Special Area Start ***** -->
+<section class="special-area bg-white section_padding_100" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Section Heading Area -->
+                <div class="section-heading text-center">
+                    <h2>Why Is It Special</h2>
+                    <div class="line-shape"></div>
+                </div>
+            </div>
+        </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <div class="row">
+            <!-- Single Special Area -->
+            <div class="col-12 col-md-4">
+                <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="single-icon">
+                        <i class="ti-mobile" aria-hidden="true"></i>
+                    </div>
+                    <h4>Easy to use</h4>
+                    <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                </div>
+            </div>
+            <!-- Single Special Area -->
+            <div class="col-12 col-md-4">
+                <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="single-icon">
+                        <i class="ti-ruler-pencil" aria-hidden="true"></i>
+                    </div>
+                    <h4>Powerful Design</h4>
+                    <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                </div>
+            </div>
+            <!-- Single Special Area -->
+            <div class="col-12 col-md-4">
+                <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="single-icon">
+                        <i class="ti-settings" aria-hidden="true"></i>
+                    </div>
+                    <h4>Customizability</h4>
+                    <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <!-- Special Description Area -->
+    <div class="special_description_area mt-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="special_description_img">
+                        <img src="/Content/img/bg-img/special.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                    <div class="special_description_content">
+                        <h2>Our Best Propositions for You!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        <div class="app-download-area">
+                            <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+                                <!-- Google Store Btn -->
+                                <a href="#">
+                                    <i class="fa fa-android"></i>
+                                    <p class="mb-0"><span>available on</span> Google Store</p>
+                                </a>
+                            </div>
+                            <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                <!-- Apple Store Btn -->
+                                <a href="#">
+                                    <i class="fa fa-apple"></i>
+                                    <p class="mb-0"><span>available on</span> Apple Store</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</section>
+<!-- ***** Special Area End ***** -->
+<!-- ***** Awesome Features Start ***** -->
+<section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Heading Text -->
+                <div class="section-heading text-center">
+                    <h2>Awesome Features</h2>
+                    <div class="line-shape"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Single Feature Start -->
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="single-feature">
+                    <i class="ti-user" aria-hidden="true"></i>
+                    <h5>Awesome Experience</h5>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <!-- Single Feature Start -->
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="single-feature">
+                    <i class="ti-pulse" aria-hidden="true"></i>
+                    <h5>Fast and Simple</h5>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <!-- Single Feature Start -->
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="single-feature">
+                    <i class="ti-dashboard" aria-hidden="true"></i>
+                    <h5>Clean Code</h5>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <!-- Single Feature Start -->
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="single-feature">
+                    <i class="ti-palette" aria-hidden="true"></i>
+                    <h5>Perfect Design</h5>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <!-- Single Feature Start -->
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="single-feature">
+                    <i class="ti-crown" aria-hidden="true"></i>
+                    <h5>Best Industry Leader</h5>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <!-- Single Feature Start -->
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="single-feature">
+                    <i class="ti-headphone" aria-hidden="true"></i>
+                    <h5>24/7 Online Support</h5>
+                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Awesome Features End ***** -->
+<!-- ***** Video Area Start ***** -->
+<div class="video-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Video Area Start -->
+                <div class="video-area" style="background-image: url(/Content/img/bg-img/video.jpg);">
+                    <div class="video-play-btn">
+                        <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+<!-- ***** Video Area End ***** -->
+<!-- ***** Cool Facts Area Start ***** -->
+<section class="cool_facts_area clearfix">
+    <div class="container">
+        <div class="row">
+            <!-- Single Cool Fact-->
+            <div class="col-12 col-md-3 col-lg-3">
+                <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="counter-area">
+                        <h3><span class="counter">90</span></h3>
+                    </div>
+                    <div class="cool-facts-content">
+                        <i class="ion-arrow-down-a"></i>
+                        <p>APP <br> DOWNLOADS</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Cool Fact-->
+            <div class="col-12 col-md-3 col-lg-3">
+                <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="counter-area">
+                        <h3><span class="counter">120</span></h3>
+                    </div>
+                    <div class="cool-facts-content">
+                        <i class="ion-happy-outline"></i>
+                        <p>Happy <br> Clients</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Cool Fact-->
+            <div class="col-12 col-md-3 col-lg-3">
+                <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="counter-area">
+                        <h3><span class="counter">40</span></h3>
+                    </div>
+                    <div class="cool-facts-content">
+                        <i class="ion-person"></i>
+                        <p>ACTIVE <br>ACCOUNTS</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Cool Fact-->
+            <div class="col-12 col-md-3 col-lg-3">
+                <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="counter-area">
+                        <h3><span class="counter">10</span></h3>
+                    </div>
+                    <div class="cool-facts-content">
+                        <i class="ion-ios-star-outline"></i>
+                        <p>TOTAL <br>APP RATES</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Cool Facts Area End ***** -->
+<!-- ***** Product Images Area Start ***** -->
+<section class="product-image-area bg-white section_padding_0_100 clearfix" id="product-images">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <!-- Heading Text  -->
+                <div class="section-heading">
+                    <h2>Product Images</h2>
+                    <div class="line-shape"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <!-- Product Image Slides  -->
+                <div class="product_images_slides owl-carousel">
+                    <div class="single-shot">
+                        <img src="/Content/img/scr-img/app-1.jpg" alt="">
+                    </div>
+                    <div class="single-shot">
+                        <img src="/Content/img/scr-img/app-2.jpg" alt="">
+                    </div>
+                    <div class="single-shot">
+                        <img src="/Content/img/scr-img/app-3.jpg" alt="">
+                    </div>
+                    <div class="single-shot">
+                        <img src="/Content/img/scr-img/app-4.jpg" alt="">
+                    </div>
+                    <div class="single-shot">
+                        <img src="/Content/img/scr-img/app-5.jpg" alt="">
+                    </div>
+                    <div class="single-shot">
+                        <img src="/Content/img/scr-img/app-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Product Images Area End *****====== -->
+<!-- ***** Client Feedback Area Start ***** -->
+<section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+                <div class="slider slider-for">
+                    <!-- Client Feedback Text  -->
+                    <div class="client-feedback-text text-center">
+                        <div class="client">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="client-description text-center">
+                            <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                        </div>
+                        <div class="star-icon text-center">
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                        </div>
+                        <div class="client-name text-center">
+                            <h5>Aigars Silkalns</h5>
+                            <p>Ceo Colorlib</p>
+                        </div>
+                    </div>
+                    <!-- Client Feedback Text  -->
+                    <div class="client-feedback-text text-center">
+                        <div class="client">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="client-description text-center">
+                            <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                        </div>
+                        <div class="star-icon text-center">
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                        </div>
+                        <div class="client-name text-center">
+                            <h5>Jennifer</h5>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                    <!-- Client Feedback Text  -->
+                    <div class="client-feedback-text text-center">
+                        <div class="client">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="client-description text-center">
+                            <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
+                        </div>
+                        <div class="star-icon text-center">
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                        </div>
+                        <div class="client-name text-center">
+                            <h5>Helen</h5>
+                            <p>Marketer</p>
+                        </div>
+                    </div>
+                    <!-- Client Feedback Text  -->
+                    <div class="client-feedback-text text-center">
+                        <div class="client">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </div>
+                        <div class="client-description text-center">
+                            <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                        </div>
+                        <div class="star-icon text-center">
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                            <i class="ion-ios-star"></i>
+                        </div>
+                        <div class="client-name text-center">
+                            <h5>Henry smith</h5>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Client Thumbnail Area -->
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="slider slider-nav">
+                    <div class="client-thumbnail">
+                        <img src="/Content/img/bg-img/client-3.jpg" alt="">
+                    </div>
+                    <div class="client-thumbnail">
+                        <img src="/Content/img/bg-img/client-2.jpg" alt="">
+                    </div>
+                    <div class="client-thumbnail">
+                        <img src="/Content/img/bg-img/client-1.jpg" alt="">
+                    </div>
+                    <div class="client-thumbnail">
+                        <img src="/Content/img/bg-img/client-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Client Feedback Area End ***** -->
+<!-- ***** CTA Area Start ***** -->
+<section class="our-monthly-membership section_padding_50 clearfix">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <div class="membership-description">
+                    <h2>Join our Monthly Membership</h2>
+                    <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** CTA Area End ***** -->
+@* <!-- ***** Contact Us Area Start ***** --> *@
+@* <section class="footer-contact-area section_padding_100 clearfix" id="contact"> *@
+@*     <div class="container"> *@
+@*         <div class="row"> *@
+@*             <div class="col-md-6"> *@
+@*                 <!-- Heading Text  --> *@
+@*                 <div class="section-heading"> *@
+@*                     <h2>Get in touch with us!</h2> *@
+@*                     <div class="line-shape"></div> *@
+@*                 </div> *@
+@*                 <div class="footer-text"> *@
+@*                     <p>We'll send you BLAH BLAH BLAH!</p> *@
+@*                 </div> *@
+@*                 <div class="address-text"> *@
+@*                     <p><span>Address:</span> 2755 SE 42nd Ave Portland, OR, US</p> *@
+@*                 </div> *@
+@*                 <div class="phone-text"> *@
+@*                     <p><span>Phone:</span> +99-888-888-888</p> *@
+@*                 </div> *@
+@*                 <div class="email-text"> *@
+@*                     <p><span>Email:</span> <a href="mailto:AriMari.CustomerService@gmail.com">arimari.customerservice@gmail.com</a></p> *@
+@*                 </div> *@
+@*             </div> *@
+@*             <div class="col-md-6"> *@
+@* *@
+@*                 <!-- Begin MailChimp Signup Form --> *@
+@*                 <div id="mc_embed_signup" class="contact_from"> *@
+@*                     <form action="https://arimariproducts.us18.list-manage.com/subscribe/post?u=b05c63275cc86923903f47f48&amp;id=e37abe013b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate> *@
+@*                         <div id="mc_embed_signup_scroll"> *@
+@*                             <div class="section-heading"> *@
+@*                                 <h2>Subscribe to our mailing list!</h2> *@
+@*                                 <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required> *@
+@*                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> *@
+@*                                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b05c63275cc86923903f47f48_e37abe013b" tabindex="-1" value=""></div> *@
+@*                                 <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn submit-btn"></div> *@
+@*                             </div> *@
+@*                         </div> *@
+@*                     </form> *@
+@*                 </div> *@
+@*                 <!--End mc_embed_signup--> *@
+@*             </div> *@
+@*         </div> *@
+@*     </div> *@
+@* </section> *@
+@* <!-- ***** Contact Us Area End ***** --> *@
+
+<!-- ***** Contact Us Area Start ***** -->
+<section class="footer-contact-area section_padding_100 clearfix" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Heading Text  -->
+                <div class="section-heading">
+                    <h2>Get in touch with us!</h2>
+                    <div class="line-shape"></div>
+                </div>
+                <div class="footer-text">
+                    <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
+                </div>
+                <div class="address-text">
+                    <p><span>Address:</span> 2755 SE 42nd Ave Portland, Oregon, US</p>
+                </div>
+                <div class="phone-text">
+                    <p><span>Phone:</span> +11-503-888-888</p>
+                </div>
+                <div class="email-text">
+                    <p><span>Email:</span> arimari.customerservice@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Form Start-->
+                <div class="contact_from">
+                    <form action="#" method="post">
+                        <!-- Message Input Area Start -->
+                        <div class="contact_input_area">
+                            <div class="row">
+                                <!-- Single Input Area Start -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                                    </div>
+                                </div>
+                                <!-- Single Input Area Start -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
+                                    </div>
+                                </div>
+                                <!-- Single Input Area Start -->
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
+                                    </div>
+                                </div>
+                                <!-- Single Input Area Start -->
+                                <div class="col-12">
+                                    <button type="submit" class="btn submit-btn">Send Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Message Input Area End -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Contact Us Area End ***** -->
